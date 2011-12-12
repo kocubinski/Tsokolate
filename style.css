@@ -1,0 +1,251 @@
+
+/*
+Theme Name: Tsokolate 
+Description: Tsokolate is a simple and stylish, fixed-width WordPress theme designed by <a href="http://dominor.com" target="_blank">Dominor Web Design </a>
+Author: Dominor Web Design
+Author URI: http://dominor.com
+Version: 1.1
+Tags: brown, white, red, 2-columns, right sidebar, widget ready, fixed width, seo-friendly, 2-columns
+
+*/
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	background:url(images/background.gif) repeat-x;
+	font-size: 8pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #363636;
+}
+#wrap {
+	width: 900px;
+	text-align: left;
+}
+#header {
+	height: 169px;
+	color: #ffffff;
+}
+#top {
+	height: 26px;
+	text-align: right;
+	padding-top: 4px;
+}
+#title {
+	height: 109px;
+}
+#navigation {
+	height: 23px;
+	background: url(images/background_nav.gif) repeat-x;
+	font-size: 10pt;
+	font-weight: bold;
+	padding: 7px 10px 0px 10px;
+}
+#navigation ul li {
+	display: inline;
+	list-style: none;
+}
+#navigation li a{
+	color: #ffffff;
+	padding-right: 15px;
+	text-decoration: none;
+}
+#main {
+	background: url(images/background_main.gif) repeat-x #ffffff;
+	padding: 20px 0px;
+	border: #4f3124 solid 1px;
+	text-align: left;
+}
+#sidebar {
+	float: right;
+	width: 170px;
+	padding: 0px 15px;
+}
+#content {
+	margin: 0px 200px 0px 0px;
+	padding: 0px 10px 0px 15px;
+}
+#footer {
+	clear: both;
+	color: #666666;
+	margin: 10px 0px;
+	text-align: center;
+}
+#footer a {
+	color: #666666;
+	text-decoration: none;
+}
+/* text */
+#title h1 {
+	font-size: 18pt;
+	color:#ffffff;
+	font-weight: normal;
+	padding: 30px 0px 0px 10px;
+}
+#title h1 a {
+	color:#ffffff;
+	text-decoration: none;
+}
+#content h1, h2, h3, h4, ul, ol, p {
+	padding-bottom: 10px;
+}
+#sidebar ul li {
+	list-style: none;
+}
+#sidebar li {
+	padding-bottom: 2px;
+}
+#content ul, #content ol {
+	margin-left: 25px;
+}
+h1 {
+	color: #362f2d;
+	font-size: 14pt;
+	font-weight: normal;
+}
+h1 a {
+	color: #362f2d;
+	text-decoration: none;
+}
+h2, h3, h4 {
+	font-size: 12pt;
+	color: #3e2f26;
+}
+h2 a, h3 a, h4 a {
+	color: #3e2f26;
+	text-decoration: none;
+}
+#sidebar h2 {
+	font-size: 11pt;
+	color: #6f5242;
+}
+#sidebar a {
+	color: #363636;
+	text-decoration: none;
+}
+.post {
+	padding-bottom: 10px;
+}
+.post a,
+.entry a {
+	color: #3e2f26;
+}
+.description {
+	font-size: 12pt;
+	color: #f7f7f7;
+	padding-left: 10px;
+}
+img a {
+	border: 0px;
+}
+blockquote {
+	margin: 10px;
+	color: #666666;
+	font-size: 9pt;
+	font-style:italic;
+}
+blockquote a {
+	color: #666666;
+}
+/* -- */
+.postmetadata {
+	color: #3e2f26;
+	padding: 10px 0px;
+
+}
+.postmetadata a,
+.postmetadata a:hover {
+	color: #3e2f26;
+	text-decoration: none;
+}
+#date {
+	padding-bottom: 5px;
+	color:#898989;	
+
+}
+#date a {
+	color:#898989;	
+	text-decoration: none;
+	font-weight: normal;
+}
+.comment {
+	padding: 10px 0px;
+}
+
+/* form */
+#author, #email, #url, #comment, .s {
+	border: 1px solid #3e2f26; 
+	padding: 5px;
+	font-size: 8pt;
+	background-color: #ffffff;
+}
+#author, #email, #url, #comment {
+	padding: 5px;
+}
+.s {
+	padding: 3px;
+}
+#submit, .searchsubmit {
+	background-color: #3e2f26;
+	color: #ffffff;
+	border: 0px;
+	font-size: 8pt;
+	padding: 2px;
+	margin-top: 3px;
+}
+#commentform a {
+	color: #3e2f26;
+	text-decoration: none;
+}
+#commentform a:hover {
+	color: #333333;
+	text-decoration: underline;
+}
+
+/* wp default */
+.navigation {
+	clear: both;
+	color: #362f2d;
+	margin: 10px 0px;
+}
+.navigation a {
+	color:#362f2d;
+	text-decoration: none;
+}
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+.wp-caption {
+	border: 1px solid #ddd;
+	text-align: center;
+	background-color: #f3f3f3;
+	padding-top: 4px;
+	margin: 10px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+
+.wp-caption-dd {
+	font-size: 11px;
+	line-height: 17px;
+	padding: 0 4px 5px;
+	margin: 0;
+}
